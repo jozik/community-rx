@@ -1,0 +1,6 @@
+.cproject
+.project
+.settings
+
+src/crx_model_wrapper.cpp*
+config/test.props

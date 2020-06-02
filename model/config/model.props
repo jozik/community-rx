@@ -1,0 +1,81 @@
+random.seed = 1
+
+# bit more than 2 months
+#stop.at = 1680.1
+
+stop.at = 168.1
+
+#persons.file = /home/nick/Documents/crx_input/60615/60615_crx_persons_v5.csv 
+persons.file = /home/nick/Documents/crx_input/60615/60615_crx_persons_test_ranks.csv 
+persons.alpha.file = /home/nick/Documents/crx_input/common/AlphaValues_Gen_15Mar2018.csv
+#places.file = /home/nick/Documents/crx_input/60615/60615_crx_places_v5.csv 
+places.file = /home/nick/Documents/crx_input/60615/60615_crx_places_test_ranks.csv 
+clinics.file = /home/nick/Documents/crx_input/common/clinics.csv
+activities.file = /home/nick/Documents/crx_input/common/CRX_MASTER_ACTIVITIES_LIST_V3_17Apr2018.csv
+schedule.file = /home/nick/Documents/crx_input/common/GeneratedActivitySchedules_16Apr2018.csv
+buckets.file = /home/nick/Documents/crx_input/common/MasterTable_Bucket_Age_ASID_26Mar2018.csv
+initial.places = /home/nick/Documents/crx_input/60615/60615_init_places_v3.csv
+initial.clinics = /home/nick/Documents/crx_input/60615/60615_init_clinics_v3.csv
+hrx.file = /home/nick/Documents/crx_input/southside/southside_zip16_hrx_v1.csv 
+
+places.service.codes.file = /home/nick/Documents/crx_input/common/places_to_service_codes_v3.csv
+service.codes.file = /home/nick/Documents/crx_input/common/service_codes.csv
+service.deltas.file = /home/nick/Documents/crx_input/common/service_deltas.csv
+
+propensity.file = /home/nick/Documents/crx_input/common/Propensity_NEW_WORKING.csv
+
+output.directory = ./output
+
+beta.output.file = beta_scores.csv
+choice.output.file = choices.csv
+choice.recording.service.codes = NONE
+
+# record beta every N ticks
+beta.recording.frequency = 24.0
+beta.recording.persons = NONE
+
+visit.output.file = visits.csv
+# 30302,30404,40302,40404,80401
+visit.recording.atus.codes = NONE
+visit.recording.service.codes = NONE
+visit.recording.persons = NONE
+# ALL, NONE, CLINICS, or CLINICS + place ids (e.g, CLINICS,32423,34322)
+visit.recording.places = NONE
+
+dosing.output.file = dosing.csv
+dosing.recording.persons = NONE
+dosing.recording.causes = NONE
+
+info.net.output.file = info_net.txt
+place.net.output.file = place_net.csv
+
+hrx.shared.output.file = hrx_shared.csv
+hrx.recv.output.file = hrx_recv.csv
+hrx.tag.counts.file = hrx_tag_counts.csv
+
+gamma.low = 0.1
+gamma.med = 0.3
+gamma.high = 0.75
+
+delta.multiplier = 1.0
+delta.low = 0.05
+delta.med = 0.1
+delta.high = 0.15
+
+dosing.decay = 0.993
+dosing.doctor = 0.05
+dosing.psr = 0.25
+dosing.nurse = 0.15
+dosing.resource = 0.2
+dosing.peer = 0.9
+dosing.kappa = 0.02
+
+propensity.multiplier = 1.0
+propensity.none = 0.0001
+propensity.low = 0.005
+propensity.medium = 0.025
+propensity.high = 0.05
+
+uncertainity.low = 0.1
+uncertainity.medium = 0.2
+uncertainity.high = 0.4

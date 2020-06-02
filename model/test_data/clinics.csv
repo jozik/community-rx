@@ -1,0 +1,4 @@
+numeric_id,case_id,hrx_probability,doctor_probability,nurse_probability,psr_probability
+370,113085,1,1,0,0
+371,119007,1,0,1,0
+372,119460,0,0.3,0.3,0.4
