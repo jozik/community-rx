@@ -11,9 +11,9 @@ Refer to [Macal et al. (2018)](https://www.informs-sim.org/wsc18papers/includes/
 Refer to [Kaligotla et al. (2018)](https://www.informs-sim.org/wsc18papers/includes/files/228.pdf) for model description and documentation.
 
 ##  Acknowledgments 
-Research reported in this publication was supported by the National Institute on Aging of the National Institutes of Health R01AG047869 (ST Lindau., PI). This content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health’s National Institute on Aging. 
+Research reported here was supported by the National Institute on Aging of the National Institutes of Health R01AG047869 (ST Lindau., PI). This content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health’s National Institute on Aging. 
 
-This work is also supported by the U.S. Department of Energy under contract number DE-AC02-06CH11357. This work was completed in part with resources provided by the Research Computing Center at the University of Chicago (the Midway2 cluster), the Laboratory Computing Resource Center at Argonne National Laboratory (the Bebop cluster), and the University of Chicago (the Beagle supercomputer).
+This work was also supported by the U.S. Department of Energy under contract number DE-AC02-06CH11357. This work was completed in part with resources provided by the Research Computing Center at the University of Chicago (the Midway2 cluster), the Laboratory Computing Resource Center at Argonne National Laboratory (the Bebop cluster), and the University of Chicago (the Beagle supercomputer).
 
 ## References:
 
