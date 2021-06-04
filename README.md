@@ -8,7 +8,7 @@ For more information on REPAST, see https://repast.github.io/repast_hpc.html  an
 
 Refer to [Macal et al. (2018)](https://www.informs-sim.org/wsc18papers/includes/files/067.pdf) for chiSIM description.
 
-Refer to 
+
 	
 ## CommunityRx Model Description and Documentation
 
